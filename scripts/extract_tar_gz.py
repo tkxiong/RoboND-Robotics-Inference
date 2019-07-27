@@ -1,5 +1,5 @@
 # Extract tar file
-# extract_tar_gz.py <file.tar.gz>
+# python extract_tar_gz.py <file.tar.gz>
 #
 
 import os
