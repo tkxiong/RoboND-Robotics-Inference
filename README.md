@@ -4,4 +4,4 @@ docker run -it --runtime=nvidia --rm --net host -v /home/kx/Robotics/RoboND-Robo
 
 python extract_tar_gz.py ../model.tar.gz 
 
-python caffe_classification.py ../images/marker.jpg /tmp/model/deploy.prototxt /tmp/model/snapshot_iter_1650.caffemodel mean.npy /tmp/model/labels.txt
+python caffe_classification.py ../images/marker.png /tmp/model/deploy.prototxt /tmp/model/snapshot_iter_1650.caffemodel mean.npy /tmp/model/labels.txt
