@@ -7,7 +7,7 @@ import os
 cap = cv2.VideoCapture(0)
 
 object_type= {
-    0 : "tape",
+    0 : "can_drink",
     1 : "teddy_bear",
     2 : "marker",
     3 : "game_pad",
@@ -15,7 +15,7 @@ object_type= {
 }
 
 # Give image a name type
-name_type = object_type[4]
+name_type = object_type[0]
 
 # Initialize photo count
 number = 0
