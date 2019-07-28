@@ -43,5 +43,5 @@ result_text = "Predict : " + str(int(prediction[0][top_inds[0]] * 100)) + "%" + 
 
 img = cv2.imread(sys.argv[1])
 output_img = img.copy()
-cv2.putText(output_img, result_text,(0, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 2, cv2.LINE_AA)
+cv2.putText(output_img, result_text,(0, 240), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 2, cv2.LINE_AA)
 cv2.imwrite(output_image_name, output_img)
