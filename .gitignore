@@ -1,2 +1,8 @@
 .vscode
 model
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex.gz
