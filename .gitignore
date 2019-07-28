@@ -6,3 +6,4 @@ model
 *.blg
 *.log
 *.synctex.gz
+*.npy
